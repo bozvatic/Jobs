@@ -22,8 +22,7 @@
   color: #fff;
   font-size: 0.6rem;
   transition: 1s;
-}
-
-.social-left a:hover {
-  color: #2ed282;
+  &:hover {
+    color: $primary-color;
+  }
 }

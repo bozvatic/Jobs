@@ -18,9 +18,10 @@
   transition: 1s;
   border-bottom: 3px solid transparent !important;
 
-.footer a:hover {
-  color: #2ed282;
-  border-bottom: 3px solid white !important;
+  &:hover {
+    color: $primary-color;
+    border-bottom: 3px solid white !important;
+  }
 }
 
 .footer-text {

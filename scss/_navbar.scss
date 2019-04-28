@@ -15,17 +15,16 @@
 /* NAVBAR LINKS */
 .link {
   margin-left: 3rem;
-  color: #2ed282;
+  color: $primary-color;
   border-bottom: 4px solid transparent !important;
   transition: 1s;
-}
-
-.link:hover {
-  color: black !important;
-  border-bottom: 4px solid #2ed282 !important;
+  &:hover {
+    color: black !important;
+    border-bottom: 4px solid $primary-color !important;
+  }
 }
 
 .current {
   color: black !important;
-  border-bottom: 4px solid #2ed282 !important;
+  border-bottom: 4px solid $primary-color !important;
 }

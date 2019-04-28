@@ -1,11 +1,14 @@
+@import 'variables';
 @import 'navbar';
 @import 'showcase';
 @import 'footer';
 @import 'main-content';
 @import 'social-box';
 @import 'slider';
+@import 'to-top';
 
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+
 body {
   font-family: 'Roboto', sans-serif;
 }
