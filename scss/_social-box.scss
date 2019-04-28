@@ -1,0 +1,29 @@
+/* Social networks div left */
+
+.social-left {
+  border-radius: 8px;
+  opacity: 0.9;
+  background: #2a2d34;
+  position: absolute;
+  position: fixed;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 160px;
+  top: 30%;
+  left: -5px;
+}
+
+.social-left a {
+  padding: 8px 0 8px 0;
+  color: #fff;
+  font-size: 0.6rem;
+  transition: 1s;
+}
+
+.social-left a:hover {
+  color: #2ed282;
+}

@@ -1,0 +1,29 @@
+/* FOOTER */
+.footer {
+  background: #2a2d34;
+  margin: 0 !important;
+  margin-top: 2rem !important;
+}
+
+/* FOOTER CONTAINER */
+.footer.container-fluid {
+  padding: 0 !important;
+}
+
+.footer a {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.7rem;
+  transition: 1s;
+  border-bottom: 3px solid transparent !important;
+}
+
+.footer a:hover {
+  color: #2ed282;
+  border-bottom: 3px solid white !important;
+}
+
+.footer-text {
+  margin-top: 2rem;
+}

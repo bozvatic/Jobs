@@ -1,3 +1,10 @@
+@import 'navbar';
+@import 'showcase';
+@import 'footer';
+@import 'main-content';
+@import 'social-box';
+@import 'slider';
+
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 body {
   font-family: 'Roboto', sans-serif;
@@ -7,73 +14,6 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-}
-
-/* SLIDER */
-
-.slick-prev:before,
-.slick-next:before {
-  color: black;
-}
-
-.slick-slide {
-  margin: 0 10px;
-}
-
-/* Button to top */
-
-#backTop {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background: #2ed282;
-  width: 50px;
-  height: 50px;
-  display: block;
-  text-decoration: none;
-  border-radius: 35px;
-  display: none;
-  transition: all 0.3s ease;
-}
-
-#backTop:hover {
-  background: #2aa86b;
-}
-
-#backTop .fa-arrow-up {
-  color: #fff;
-  margin: 0;
-  position: relative;
-  left: 16px;
-  top: 13px;
-  font-size: 19px;
-  transition: all 0.3s ease;
-}
-
-#backTop .fa-arrow-up:hover {
-  color: #fff;
-  top: 5px;
-}
-
-/* ABOUT */
-
-.about {
-  height: 60vh;
-  background: url('/images/about.jpeg') no-repeat center -200px;
-  z-index: 1;
-  opacity: 0.7;
-}
-
-.contact {
-  height: 70vh;
-  background: url('/images/contact.jpeg') no-repeat center center;
-  opacity: 0.9;
-}
-
-.company {
-  height: 70vh;
-  background: url('/images/company.jpg') no-repeat center center;
-  opacity: 0.9;
 }
 
 @media only screen and (max-width: 400px) {

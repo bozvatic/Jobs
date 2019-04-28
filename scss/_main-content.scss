@@ -1,0 +1,113 @@
+/* H1 font */
+
+h1 {
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  padding-top: 1rem;
+}
+
+/* FAQ - Question bar */
+
+.question {
+  color: black;
+  font-size: 2rem;
+}
+
+/* TITLES */
+
+.title {
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+
+/* ICONS */
+
+.schedule {
+  padding: 3rem;
+  margin-bottom: 3rem;
+}
+
+/* Form */
+
+.form {
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+/* Button */
+
+.button {
+  color: white;
+  background: #2ed282;
+  border: none;
+  border-radius: 0 !important;
+}
+
+.button:hover {
+  color: white;
+  background: #2ed282;
+  border: none;
+}
+
+/* Dropdown animated boxes */
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active,
+.accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: '\2212';
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1s ease-out;
+}
+
+/* ABOUT */
+
+.about {
+  height: 60vh;
+  background: url('/images/about.jpeg') no-repeat center -200px;
+  z-index: 1;
+  opacity: 0.7;
+}
+
+.contact {
+  height: 70vh;
+  background: url('/images/contact.jpeg') no-repeat center center;
+  opacity: 0.9;
+}
+
+.company {
+  height: 70vh;
+  background: url('/images/company.jpg') no-repeat center center;
+  opacity: 0.9;
+}

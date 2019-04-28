@@ -1,0 +1,31 @@
+/* NAVBAR */
+.navbar {
+  margin: 0 !important;
+  padding: 0 !important;
+  box-shadow: 5px 10px 18px #888888;
+  height: 3rem;
+}
+
+.links-bottom {
+  display: inline-block;
+  padding-bottom: 0.8rem;
+  font-size: 0.8rem;
+}
+
+/* NAVBAR LINKS */
+.link {
+  margin-left: 3rem;
+  color: #2ed282;
+  border-bottom: 4px solid transparent !important;
+  transition: 1s;
+}
+
+.link:hover {
+  color: black !important;
+  border-bottom: 4px solid #2ed282 !important;
+}
+
+.current {
+  color: black !important;
+  border-bottom: 4px solid #2ed282 !important;
+}
